@@ -6,3 +6,5 @@ def sum_of_digits(n):
         n=n//10
     return sum
 print(sum_of_digits(1221))
+#Time complexity O(log10(n))
+#Space complexity O(1)
