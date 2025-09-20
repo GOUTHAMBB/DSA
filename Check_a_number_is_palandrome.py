@@ -1,3 +1,4 @@
+import numpy as np
 def palandrome(n):
     n1=int(n)
     n2=0
@@ -9,5 +10,8 @@ def palandrome(n):
         return True
     else:    
         return False
+def count_the_digits2(n):
+    n=int(n)
+    return int(np.log10(n)+1)
 print(palandrome(12321))
 
