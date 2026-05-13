@@ -10,8 +10,5 @@ def palandrome(n):
         return True
     else:    
         return False
-def count_the_digits2(n):
-    n=int(n)
-    return int(np.log10(n)+1)
 print(palandrome(12321))
 
