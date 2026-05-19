@@ -27,6 +27,6 @@ def factors3(n):
                 factors.append(num//i)
     factors.sort()
     return factors
-#time complexoty is O(sqrt(n))+ O(NlogN)  ehre  O(NlogN) is for sorting
+#time complexoty is O(sqrt(n))+ O(NlogN)  here  O(NlogN) is for sorting
 #space complexity is O(k) and k is the number of factors
 print(factors(12))

@@ -11,4 +11,5 @@ def palandrome(n):
     else:    
         return False
 print(palandrome(12321))
+# Time complexity is O(log n) and space complexity is O(1)
 

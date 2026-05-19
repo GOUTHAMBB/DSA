@@ -24,3 +24,4 @@ def count_the_digits2(n):
     n=int(n)
     return int(np.log10(n)+1)
 print(armstrong_number_check(1534))
+# Time complexity is O(log n) and space complexity is O(1)
