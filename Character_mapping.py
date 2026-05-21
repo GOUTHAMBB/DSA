@@ -8,4 +8,4 @@ def character_hashing(s1,l1):
     return dict1
 print(character_hashing("hello world",["h","e","l","o","w","r","d"]))
 # time complexity is O(n+m) where n is the length of the string s1 and m is the length of the list l1
-# space complexity is O(k) where k is the number of unique characters in l1 worst case is O(n)
+# space complexity is O(1) 
