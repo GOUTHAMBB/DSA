@@ -6,3 +6,4 @@ def buble_sort(arr):
     return arr
 print(buble_sort([5,4,3,2,1]))
 # time complexity is O(n^2) as we are using two nested loops to sort the array and space complexity is O(1) as we are sorting the array in place without using any extra space. 
+# Best case time complexity is O(n) when the array is already sorted and worst case time complexity is O(n^2)

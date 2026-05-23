@@ -29,3 +29,6 @@ def merge_sort(arr):
             k += 1
         return arr
 print(merge_sort([5, 4, 3, 2, 1]))
+
+# time complexity is O(n log2(n)) as we are dividing the array into two halves and sorting each half recursively and space complexity is O(n) as we are using extra space to store the left and right halves of the array during the merge process.
+# best case TC is o(nlog2n)
